@@ -1,0 +1,9 @@
+<form method="post" action="/step3" xmlns:th="http://www.w3.org/1999/xhtml">
+    First Name: <span th:text="${userForm.firstName}"></span><br>
+    Last Name: <span th:text="${userForm.lastName}"></span><br>
+    Email: <span th:text="${userForm.email}"></span><br>
+    Phone: <span th:text="${userForm.phone}"></span><br>
+    City: <input type="text" name="city"/><br>
+    Country: <input type="text" name="country"/><br>
+    <button type="submit">Submit</button>
+</form>
